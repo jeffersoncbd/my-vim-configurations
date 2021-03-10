@@ -22,7 +22,7 @@ vim +PlugInstall +qall
 echo -e "\nPlugins instalado"
 
 echo -e "\nInstalando plugins COC..."
-vim "+CocInstall coc-tsserver coc-prettier coc-eslint coc-json -sync" +qall
+vim "+CocInstall coc-tsserver coc-prettier coc-eslint coc-json coc-go -sync" +qall
 echo -e "Plugins COC instalados!"
 
 if [ -f ~/.vim/coc-settings.json ]; then
