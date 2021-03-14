@@ -20,6 +20,7 @@ colorscheme gruvbox
 set bg=dark
 
 nmap <C-a> <Plug>(coc-codeaction)
+nmap <C-d> :call CocAction('jumpDefinition')<CR>
 map  <C-t> :NERDTree<CR>
 
 let NERDTreeShowHidden=1
